@@ -47,13 +47,15 @@ Character portraits, text blocks, table cells, icons -- all individually extract
 <img src="examples/extracted-pokeball.png" height="150" alt="Extracted pokeball illustration">
 </p>
 
-### More examples
+### More results
 
 | Image type | Assets found | Time |
 |-----------|-------------|------|
-| Presentation slide | 22 | 6.0s |
+| Architecture diagram | 13 | 1.5s |
+| Infographic slide | 44 | 2.8s |
+| Poster | 11 | 3.9s |
 | Scientific diagram | 43 | 4.2s |
-| Technical diagram (Boeing 737) | 42 | 4.5s |
+| Technical diagram | 42 | 4.5s |
 | Data chart | 26 | 4.8s |
 
 ## Installation
