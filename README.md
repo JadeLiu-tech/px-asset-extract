@@ -2,6 +2,7 @@
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
 [![Python 3.9+](https://img.shields.io/badge/python-3.9%2B-blue.svg)](https://www.python.org/downloads/)
+[![Demo](https://img.shields.io/badge/%F0%9F%A4%97%20Hugging%20Face-Demo-yellow)](https://huggingface.co/spaces/pxGenius/px-asset-extract)
 
 Extract individual assets from images -- posters, infographics, slides, diagrams -- as transparent PNGs with a JSON manifest. Zero ML models, zero API calls, pure classical computer vision.
 
