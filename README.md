@@ -33,22 +33,14 @@ The main illustration extracted with clean alpha transparency:
 <img src="examples/extracted-pokeball.png" height="150" alt="Extracted pokeball illustration">
 </p>
 
-### Scientific diagram -- 43 assets, 4.2s
-
-| Input | Detected |
-|-------|----------|
-| ![Diagram input](examples/diagram-photosynthesis.png) | ![Diagram detected](examples/diagram-photosynthesis-detected.png) |
-
-Complex diagrams are decomposed into individual labeled elements -- illustrations, text labels, icons, and connectors.
-
 ### More examples
 
 | Image type | Assets found | Time |
 |-----------|-------------|------|
 | Presentation slide | 22 | 6.0s |
+| Scientific diagram | 43 | 4.2s |
 | Technical diagram (Boeing 737) | 42 | 4.5s |
 | Data chart | 26 | 4.8s |
-| Infographic | 44 | 2.8s |
 
 ## Installation
 
