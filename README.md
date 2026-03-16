@@ -8,13 +8,28 @@ Extract individual assets from images -- posters, infographics, slides, diagrams
 
 ## Examples
 
+### Architecture diagram -- 13 assets, 1.5s
+
+| Input | Detected |
+|-------|----------|
+| ![Diagram input](examples/diagram-agent-loop.png) | ![Diagram detected](examples/diagram-agent-loop-detected.png) |
+
+Every box, icon, and connector extracted as a separate transparent PNG:
+
+<p>
+<img src="examples/extracted-chat-apps.png" height="120" alt="Chat Apps">
+<img src="examples/extracted-message.png" height="70" alt="Message">
+<img src="examples/extracted-tools.png" height="90" alt="Tools">
+<img src="examples/extracted-context.png" height="120" alt="Context">
+</p>
+
 ### Slide with mixed content -- 44 assets, 2.8s
 
 | Input | Detected |
 |-------|----------|
 | ![Slide input](examples/slide-simulation.png) | ![Slide detected](examples/slide-simulation-detected.png) |
 
-Every element extracted as a separate transparent PNG -- character portraits, text blocks, table cells, icons:
+Character portraits, text blocks, table cells, icons -- all individually extracted:
 
 <p>
 <img src="examples/extracted-portrait-1.png" height="100" alt="Extracted portrait">
@@ -27,8 +42,6 @@ Every element extracted as a separate transparent PNG -- character portraits, te
 | Input | Detected |
 |-------|----------|
 | ![Poster input](examples/poster-pokemon.png) | ![Poster detected](examples/poster-pokemon-detected.png) |
-
-The main illustration extracted with clean alpha transparency:
 
 <p>
 <img src="examples/extracted-pokeball.png" height="150" alt="Extracted pokeball illustration">
