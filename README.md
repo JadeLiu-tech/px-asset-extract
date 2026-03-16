@@ -6,6 +6,8 @@
 
 Extract individual assets from images -- posters, infographics, slides, diagrams -- as transparent PNGs with a JSON manifest. Zero ML models, zero API calls, pure classical computer vision.
 
+**[Try the live demo on Hugging Face](https://huggingface.co/spaces/pxGenius/px-asset-extract)**
+
 ## Examples
 
 ### Architecture diagram -- 13 assets, 1.5s
