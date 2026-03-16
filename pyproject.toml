@@ -1,0 +1,50 @@
+[build-system]
+requires = ["setuptools>=64", "setuptools-scm"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "px-asset-extract"
+version = "0.1.0"
+description = "Extract individual assets from images — posters, infographics, slides, diagrams → transparent PNGs"
+readme = "README.md"
+license = {text = "MIT"}
+requires-python = ">=3.9"
+authors = [
+    {name = "pxGenius", email = "px@pxgenius.dev"},
+]
+keywords = ["image", "asset", "extraction", "segmentation", "computer-vision", "png", "transparency"]
+classifiers = [
+    "Development Status :: 4 - Beta",
+    "Intended Audience :: Developers",
+    "License :: OSI Approved :: MIT License",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.9",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+    "Programming Language :: Python :: 3.13",
+    "Topic :: Multimedia :: Graphics",
+    "Topic :: Scientific/Engineering :: Image Recognition",
+]
+dependencies = [
+    "Pillow>=9.0",
+    "numpy>=1.20",
+]
+
+[project.optional-dependencies]
+full = ["opencv-python>=4.5"]
+dev = ["pytest>=7.0", "opencv-python>=4.5"]
+
+[project.scripts]
+px-extract = "px_asset_extract.cli:main"
+
+[project.urls]
+Homepage = "https://github.com/pxgenius/px-asset-extract"
+Repository = "https://github.com/pxgenius/px-asset-extract"
+Issues = "https://github.com/pxgenius/px-asset-extract/issues"
+
+[tool.setuptools.packages.find]
+include = ["px_asset_extract*"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
