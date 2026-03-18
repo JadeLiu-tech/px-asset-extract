@@ -7,3 +7,5 @@ build/
 .venv/
 output/
 *.egg
+.cursorrules
+CLAUDE.md
