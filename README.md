@@ -63,13 +63,15 @@ Character portraits, text blocks, table cells, icons -- all individually extract
 ## Installation
 
 ```bash
-pip install px-asset-extract
+git clone https://github.com/pxgenius/px-asset-extract.git
+cd px-asset-extract
+pip install .
 ```
 
 For higher-quality alpha edges (optional):
 
 ```bash
-pip install px-asset-extract[full]
+pip install ".[full]"
 ```
 
 ## Quick Start
