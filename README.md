@@ -63,7 +63,7 @@ Character portraits, text blocks, table cells, icons -- all individually extract
 ## Installation
 
 ```bash
-git clone https://github.com/pxgenius/px-asset-extract.git
+git clone https://github.com/JadeLiu-tech/px-asset-extract.git
 cd px-asset-extract
 pip install .
 ```
@@ -399,7 +399,7 @@ Contributions are welcome! Please:
 ### Development Setup
 
 ```bash
-git clone https://github.com/pxgenius/px-asset-extract.git
+git clone https://github.com/JadeLiu-tech/px-asset-extract.git
 cd px-asset-extract
 python -m venv .venv && source .venv/bin/activate
 pip install -e ".[dev]"

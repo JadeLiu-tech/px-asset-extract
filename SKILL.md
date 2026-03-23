@@ -41,7 +41,7 @@ The full pipeline runs in 2-6 seconds on CPU with zero ML models:
 ## Installation
 
 ```bash
-git clone https://github.com/pxgenius/px-asset-extract.git
+git clone https://github.com/JadeLiu-tech/px-asset-extract.git
 cd px-asset-extract
 pip install .
 ```

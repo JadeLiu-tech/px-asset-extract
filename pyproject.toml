@@ -39,9 +39,9 @@ dev = ["pytest>=7.0", "opencv-python>=4.5"]
 px-extract = "px_asset_extract.cli:main"
 
 [project.urls]
-Homepage = "https://github.com/pxgenius/px-asset-extract"
-Repository = "https://github.com/pxgenius/px-asset-extract"
-Issues = "https://github.com/pxgenius/px-asset-extract/issues"
+Homepage = "https://github.com/JadeLiu-tech/px-asset-extract"
+Repository = "https://github.com/JadeLiu-tech/px-asset-extract"
+Issues = "https://github.com/JadeLiu-tech/px-asset-extract/issues"
 
 [tool.setuptools.packages.find]
 include = ["px_asset_extract*"]
