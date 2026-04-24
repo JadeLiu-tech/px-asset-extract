@@ -8,6 +8,8 @@ Extract individual assets from images -- posters, infographics, slides, diagrams
 
 **[Try the live demo on Hugging Face](https://huggingface.co/spaces/pxGenius/px-asset-extract)**
 
+[Try it online](https://socialistic.ai/px-asset-extract-40b441?utm_source=github_readme&utm_campaign=koc_skill_creator&utm_content=hyperlink)
+
 ## Examples
 
 ### Architecture diagram -- 13 assets, 1.5s
